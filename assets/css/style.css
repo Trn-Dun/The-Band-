@@ -134,7 +134,8 @@
     display: inline-block;
     width: 33%;
     float: right;
-    padding-top: 32px;
+    padding: 32px 0;
+    margin-bottom: 64px;
 }
 
 #content .content-inf .content-inf-name {
@@ -143,4 +144,5 @@
 
 #content .content-inf .content-inf-img {
     width: 60%;
+
 }
