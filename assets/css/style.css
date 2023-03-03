@@ -9,6 +9,9 @@
 #header{
     height: 46px;
     background-color: #000;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 #header ul li{
@@ -69,6 +72,7 @@
 }
 
 #slider{
-
+    min-height: 2000px;
+    background-color: antiquewhite;
 }
 
