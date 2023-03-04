@@ -13,6 +13,7 @@
     right: 0;
     left: 0;
     top: 0;
+    z-index: 1;
 }
 
 #header ul li{
@@ -111,7 +112,7 @@
     max-width: 800px;
     margin: auto;
 }
-#content .content-header {
+#content .content-about-header {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -119,18 +120,18 @@
     margin: 10px 0;
 }
 
-#content .content-slogan {
+#content .content-about-slogan {
     margin: 15px 0;
     opacity: 0.6;
 }
 
-#content .content-text {
+#content .content-about-text {
     text-align: justify;
     line-height: 1.5;
     font-size: 15px;
 }
 
-#content .content-inf {
+#content .content-about-inf {
     display: inline-block;
     width: 33%;
     float: right;
@@ -138,11 +139,11 @@
     margin-bottom: 64px;
 }
 
-#content .content-inf .content-inf-name {
+#content .content-about-inf .content-about-inf-name {
     margin-bottom: 15px;
 }
 
-#content .content-inf .content-inf-img {
+#content .content-about-inf .content-about-inf-img {
     width: 60%;
 
 }
