@@ -106,13 +106,14 @@
     margin: 15px 0;
 }
 
-#content {
+#content .content-about {
+    min-height: 637px;
     text-align: center;
     padding: 64px 16px;
     max-width: 800px;
     margin: auto;
 }
-#content .content-about-header {
+#content .content-about .content-about-header {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -120,18 +121,19 @@
     margin: 10px 0;
 }
 
-#content .content-about-slogan {
+#content .content-tour-slogan,
+#content .content-about .content-about-slogan {
     margin: 15px 0;
     opacity: 0.6;
 }
 
-#content .content-about-text {
+#content .content-about .content-about-text {
     text-align: justify;
     line-height: 1.5;
     font-size: 15px;
 }
 
-#content .content-about-inf {
+#content .content-about .content-about-inf {
     display: inline-block;
     width: 33%;
     float: right;
@@ -139,11 +141,60 @@
     margin-bottom: 64px;
 }
 
-#content .content-about-inf .content-about-inf-name {
+#content .content-about .content-about-inf .content-about-inf-name {
     margin-bottom: 15px;
 }
 
-#content .content-about-inf .content-about-inf-img {
+#content .content-about .content-about-inf .content-about-inf-img {
     width: 60%;
 
+}
+
+#content .content-tour {
+    padding: 64px 16px;
+    background-color: #000;
+    background-origin:border-box;
+    color: #fff;
+}
+
+#content .content-tour-title ,
+#content .content-tour-slogan {
+    text-align: center;
+}
+
+#content .content-tour-title {
+    margin: 10px 0;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#content .content-tour-time {
+    margin: 20px 120px;
+    background-color: #fff;
+    color: #000;
+    list-style-type: none;
+}
+
+#content .content-tour-time li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc ;
+    /* opacity: 0.6; */
+}
+
+#content .content-tour-time .status {
+    margin-left: 16px;
+    padding: 0 8px;
+    background-color: red;
+    color: #fff;
+}
+
+#content .content-tour-time .number {
+    float: right;
+    margin-right: 16px;
+    padding: 2px 8px;
+    border-radius: 50% ;
+    background-color: #000;
+    color: #fff;
 }
